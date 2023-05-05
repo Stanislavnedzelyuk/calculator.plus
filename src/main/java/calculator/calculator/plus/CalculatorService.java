@@ -19,6 +19,7 @@ public class CalculatorService {
             return num1 + "*" + num2 + "=" + result;
         }
 
+
         public String divideNumbers(int num1, int num2) {
             if (num2 == 0) {
                 return "На ноль делить нельзя";
