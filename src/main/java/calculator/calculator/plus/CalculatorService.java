@@ -27,6 +27,12 @@ public class CalculatorService {
             int quotient = num1 / num2;
             return num1 + "/" + num2 + "=" + quotient;
         }
+
+    public Double add(Double i, Double i1) {
+        return i;
     }
+
+}
+
 
 
