@@ -9,6 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class CalculatorServiceTest {
     private final CalculatorService calculatorService = new CalculatorService();
 
+
     @Test
     public void addTest() {
         assertEquals(Optional.of(10), calculatorService.add(5.0, 5.0));

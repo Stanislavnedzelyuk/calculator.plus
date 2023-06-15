@@ -14,6 +14,7 @@ public class CalculatorServiceParameterizedTest {
     private final CalculatorService calculatorService = new
             CalculatorService();
 
+
     @ParameterizedTest
     @ValueSource(ints = {5, 10, 15})
     public void addParameterizedTest(int num) {
